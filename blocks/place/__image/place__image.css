@@ -20,7 +20,7 @@
 
 @media screen and (max-width:450px){
   .place__image{
-    width:calc(150px + (320 - 150)*(100vw - 100px)/(320 - 100));
+    width:100%;
     margin-bottom: 32px;
     margin-top: 0;
   }
