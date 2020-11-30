@@ -544,9 +544,8 @@
   .intro__text{
     line-height: 1.63;
     max-width: 288px;
-    margin-bottom: 42px; /*по макету 34*/
-/*  }
-
+    margin-bottom: 42px;} /*по макету 34*/
+/*
   .photo-grid{
     margin: 64px 16px 0;
     grid-gap: 12px;
@@ -653,3 +652,4 @@
 
 
 }
+*/
