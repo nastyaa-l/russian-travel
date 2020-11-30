@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:450px){
    .place__paragraph_second-row{
     margin-bottom: 0;
   }
