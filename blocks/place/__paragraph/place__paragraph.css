@@ -7,6 +7,15 @@
   margin: 48px 0 0;
 }
 
+.place__paragraph:first-child{
+  grid-area: paragraph-1;
+}
+
+.place__paragraph:nth-child(2){
+  grid-area: paragraph-2;
+  margin-top: 28px;  /*для пиксель перфекта, в макете 26px*/
+}
+
 @media screen and (max-width:1024px){
   .place__paragraph{
     font-size:calc(16px + (18 - 16) *(100vw - 768px)/(1024 - 768));
@@ -17,6 +26,9 @@
   .place__paragraph{
     font-size: 16px;
     line-height: 1.63;
+  }
+  .place__paragraph:nth-child(2){
+    margin-top: 25px;
   }
 }
 
@@ -30,4 +42,13 @@
   }
 }
 
+@media screen and (max-width:450px){
+  .place:last-child .place__paragraph:first-child{
+    margin-bottom:0;
+  }
+
+  .place__paragraph:nth-child(2){
+    margin-bottom: 0;
+  }
+}
 
