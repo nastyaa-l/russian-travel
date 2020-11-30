@@ -1,0 +1,17 @@
+.place__paragraph_second-row{
+  grid-area: paragraph-2;
+  margin-top: 28px;  /*для пиксель перфекта, в макете 26px*/
+}
+
+@media screen and (max-width: 768px){
+  .place__paragraph_second-row{
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width:320px){
+   .place__paragraph_second-row{
+    margin-bottom: 0;
+  }
+}
+

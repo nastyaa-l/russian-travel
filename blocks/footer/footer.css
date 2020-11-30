@@ -1,0 +1,23 @@
+.footer{
+  margin:0 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px){
+  .footer{
+    margin: 0 24px 0px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .footer{
+    margin-left:16px;
+    margin-right: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

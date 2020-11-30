@@ -1,0 +1,28 @@
+.place__image{
+  margin-top: 48px;
+  width:calc(440px + (460 - 440) *(100vw - 1024px)/(1280 - 1024));
+  /*width: 460px;*/
+  grid-area: image;
+}
+
+@media screen and (max-width:1024px){
+  .place__image{
+    width:calc(340px + (440 - 340) *(100vw - 768px)/(1024 - 768));
+  }
+}
+
+
+@media screen and (max-width: 765px){
+.place__image{
+    width:calc(320px + (340 - 320) *(100vw - 320px)/(768 - 320));
+  }
+}
+
+@media screen and (max-width:320px){
+  .place__image{
+    width:calc(150px + (320 - 150)*(100vw - 100px)/(320 - 100));
+    margin-bottom: 32px;
+    margin-top: 0;
+  }
+}
+

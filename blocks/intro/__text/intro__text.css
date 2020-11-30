@@ -1,0 +1,25 @@
+.intro__text{
+  margin:0 0 33px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #FFFFFF;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 768px){
+  .intro__text{
+    max-width: 100%;
+    margin-bottom: 35px;  /*для пиксель перфекта, в макете 33px*/
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .intro__text{
+    line-height: 1.63;
+    max-width: 288px;
+    margin-bottom: 42px; /*по макету 34*/
+  }
+}
+

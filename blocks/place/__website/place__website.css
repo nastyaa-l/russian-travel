@@ -1,0 +1,13 @@
+.place__website{
+  grid-area: website;
+  align-self: end;
+  justify-self: start;
+}
+
+
+@media screen and (max-width: 765px){
+.place__website{
+      opacity: 0;
+      position: absolute;
+    }
+}
