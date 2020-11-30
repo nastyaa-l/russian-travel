@@ -1,4 +1,4 @@
-.place__website_link{
+.place__link{
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
@@ -7,6 +7,6 @@
   margin: 0;
 }
 
-.place__website_link:hover{
+.place__link:hover{
   cursor:pointer;
 }
