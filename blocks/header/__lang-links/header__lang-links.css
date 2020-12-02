@@ -1,3 +1,9 @@
 .header__lang-links{
-  margin-bottom: 3px; /*для пиксель перфекта*/
+  margin-bottom: 3px;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  opacity: 1; /*для пиксель перфекта*/
 }
+

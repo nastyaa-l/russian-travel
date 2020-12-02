@@ -13,17 +13,18 @@
 
 @media screen and (max-width:1024px){
   .place__title{
-    max-width:calc(340px + (440 - 340) *(100vw - 768px)/(1024 - 768));
+    max-width:calc(333px + (440 - 333) *(100vw - 768px)/(1024 - 768));
+  }
+}
+
+@media screen and (max-width: 850px){
+  .place__title{
+    font-size: 55px;
   }
 }
 
 @media screen and (max-width: 768px){
-.place:first-child .place__title{
-  max-width: 300px;
-}
   .place__title{
-    max-width: 340px;
-    font-weight: 900;
     font-size: 42px;
     line-height: 1.1;
   }

@@ -1,6 +1,4 @@
 .place__paragraph{
-  font-family: Inter;
-  font-weight: normal;
   font-size: 18px;
   line-height: 1.63;
   color: #FFFFFF;
@@ -23,22 +21,8 @@
 }
 
 @media screen and (max-width: 768px){
-  .place__paragraph{
-    font-size: 16px;
-    line-height: 1.63;
-  }
   .place__paragraph:nth-child(2){
     margin-top: 25px;
-  }
-}
-
-
-@media screen and (max-width:320px){
-  .place__paragraph{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.63;
-    margin: 0 16px 25px;
   }
 }
 
@@ -51,4 +35,13 @@
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width:320px){
+  .place__paragraph{
+    font-size: 16px;
+    margin: 0 16px 25px;
+  }
+}
+
+
 
