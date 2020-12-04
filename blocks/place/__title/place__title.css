@@ -35,7 +35,7 @@
   .place__title{
     text-align: center;
     margin:auto;
-    width:calc(288px + (340 - 288) *(100vw - 320px)/(768 - 320));
+    max-width:calc(288px + (320 - 288) *(100vw - 320px)/(768 - 320));
     font-size:calc(32px + (42 - 32) *(100vw - 320px)/(768 - 320));
   }
 }

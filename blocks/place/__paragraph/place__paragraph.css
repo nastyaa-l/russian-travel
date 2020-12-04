@@ -5,12 +5,7 @@
   margin: 48px 0 0;
 }
 
-.place__paragraph:first-child{
-  grid-area: paragraph-1;
-}
-
-.place__paragraph:nth-child(2){
-  grid-area: paragraph-2;
+.place__paragraph:nth-child(2n+1){
   margin-top: 28px;  /*для пиксель перфекта, в макете 26px*/
 }
 
@@ -39,7 +34,14 @@
 @media screen and (max-width:320px){
   .place__paragraph{
     font-size: 16px;
+    margin-block-start: 0;
+    margin-block-end: 0;
     margin: 0 16px 25px;
+  }
+
+  .place__paragraph:nth-child(2n+1){
+    margin-top: 0;
+    margin-bottom:0;  /*для пиксель перфекта, в макете 26px*/
   }
 }
 

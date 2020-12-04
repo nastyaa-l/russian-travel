@@ -1,4 +1,5 @@
 .place{
+  max-width: 984px;
   margin:0 calc(48px + (148 - 48) *(100vw - 1024px)/(1280 - 1024)) 80px;
   display: grid;
   column-gap: 40px;
@@ -12,6 +13,16 @@
 .place:last-child{
   margin-bottom: 92px;
 }
+
+@media screen and (min-width:1281px)
+{
+  .place{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 
 @media screen and (max-width:1024px){
   .place{
@@ -27,6 +38,9 @@
     margin-left:24px;
     margin-right: 24px;
     column-gap: 28px;
+  }
+  .place:last-child{
+    margin-bottom: 0;
   }
 }
 
