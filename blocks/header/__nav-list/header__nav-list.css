@@ -1,0 +1,28 @@
+.header__nav-list{
+  list-style: none;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: right;
+  text-decoration: underline;
+  color:#FFFFFF;
+  margin-top:0;
+  margin-bottom: 3px;
+  align-self: flex-end;
+  transition: opacity linear;
+  padding: 0;
+}
+
+.header__nav-list:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width:459px){
+  .header__nav-list{
+    font-size: 18px;
+  }
+}
+
+
+

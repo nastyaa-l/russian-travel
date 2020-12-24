@@ -10,6 +10,11 @@
   <div class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Россия">
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__popup-open">О проекте</li>
+      </ul>
+    </nav>
     <ul class="header__lang-links">
       <li class="header__lang-item"><a href="#" class="header__lang-link header__lang-link_active" target="_self" rel="noopener">Ru</a></li>
       <li class="header__lang-item"><a href="#" class="header__lang-link" target="_self" rel="noopener">En</a></li>
@@ -126,6 +131,16 @@
       </nav>
       <p class="footer__copyright">&copy; 2020. Анастасия Люгаева</p>
     </footer>
+    <section class="overlay">
+      <div class="overlay__popup">
+        <h2 class="overlay__title">О проекте</h2>
+        <p class="overlay__body">Путешествие по России это студенческий проект третьего спринта программы веб-разработчик.
+          Его задача- отточить навык адаптивной верстки работы с фигмой.
+        А этот попап- кейс для отработки 4 спринта.</p>
+        <span class="overlay__popup-close"></span>
+      </div>
+    </section>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+.overlay__title{
+  margin: 0 0 40px 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color:#000000;
+  max-width: 690px;
+  }
+
+  @media screen and (max-width:580px){
+    .overlay__title{
+      font-size: 40px;
+    }
+  }

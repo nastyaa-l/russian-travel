@@ -1,0 +1,17 @@
+.overlay__popup-close{
+  position: absolute;
+  top: -28px;
+  right: -50px;
+  width: 33px;
+  height: 32px;
+  background-image: url(../../../images/Clos-Icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color:black;
+  transition: opacity linear;
+}
+
+.overlay__popup-close:hover{
+  opacity:0.8;
+  cursor: pointer;
+}

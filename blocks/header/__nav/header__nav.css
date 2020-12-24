@@ -1,0 +1,17 @@
+.header__nav {
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+@media screen and (max-width:580px){
+  .header__nav{
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width:420px){
+  .header__nav{
+    display: none;
+}
+}
+
