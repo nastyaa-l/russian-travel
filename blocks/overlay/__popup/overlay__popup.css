@@ -9,7 +9,7 @@
   position: relative;
 }
 
-@media screen and (max-width:675px){
+@media screen and (max-width:768px){
   .overlay__popup{
     padding: 50px;
   }
